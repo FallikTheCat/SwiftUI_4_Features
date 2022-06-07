@@ -11,7 +11,7 @@ struct GaugeView_Example: View {
     var body: some View {
         let gradient = Gradient(colors: [.green, .yellow, .orange, .red])
         Gauge(value: 0.4, label: {
-            Text("yaraksayar")
+            Text("Limit")
                 .font(.caption2)
         }, currentValueLabel: {
             Text("%40")
